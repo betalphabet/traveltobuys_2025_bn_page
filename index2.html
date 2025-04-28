@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel To Buys</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .banner-container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .banner-image {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: cover;
+        }
+
+        .banner-link {
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: 50%;
+            text-decoration: none;
+            background-color: rgba(0, 0, 0, 0);
+            transition: background-color 0.3s;
+        }
+
+        .banner-link:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+
+        .banner-link.left {
+            left: 0;
+        }
+
+        .banner-link.right {
+            right: 0;
+        }
+
+        @media (max-width: 768px) {
+            .banner-container {
+                width: 100vw;
+                height: 100vh;
+            }
+            .banner-image {
+                width: 100vw;
+                height: 100vh;
+            }
+            .banner-link {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="banner-container">
+        <img src="index_banner.webp" alt="Banner" class="banner-image">
+        <a href="#left-link" class="banner-link left" aria-label="左側連結"></a>
+        <a href="#right-link" class="banner-link right" aria-label="右側連結"></a>
+    </div>
+</body>
+</html>
