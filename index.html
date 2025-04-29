@@ -14,7 +14,7 @@
         .banner-container {
             position: relative;
             width: 100%;
-            height: 100vh;
+            height: auto;
             overflow: hidden;
         }
 
@@ -35,10 +35,6 @@
             transition: background-color 0.3s;
         }
 
-        .banner-link:hover {
-            background-color: rgba(0, 0, 0, 0.1);
-        }
-
         .banner-link.left {
             left: 0;
         }
@@ -48,8 +44,19 @@
         }
 
         @media (max-width: 768px) {
+            .banner-image {
+                content: url("mobile_banner.webp");
+            }
             .banner-link {
-                width: 50%;
+                width: 100%;
+            }
+            .banner-link.left {
+                top: 33%;
+                height: 33%;
+            }
+            .banner-link.right {
+                top: 66%;
+                height: 33%;
             }
         }
     </style>
