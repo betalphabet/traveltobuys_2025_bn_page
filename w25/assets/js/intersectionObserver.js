@@ -42,6 +42,9 @@ document.addEventListener('DOMContentLoaded', () => {
         case 'screen_25_5':
           specialObserver.observe(el);
           break;
+        case 'screen_25_3':
+          specialObserver.observe(el);
+          break;
         default:
           desktopObserver.observe(el);
           break;
