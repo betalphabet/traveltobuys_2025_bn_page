@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (isMobile) {
       const mobileScreens = [
         'screen_25_3', 'screen_25_2', 'screen_25_4',
-        'screen_25_5'
+        'screen_25_5', 'screen_25_6', 'screen_25_7'
       ];
       
       if (mobileScreens.includes(parentId)) {
@@ -43,6 +43,9 @@ document.addEventListener('DOMContentLoaded', () => {
           specialObserver.observe(el);
           break;
         case 'screen_25_3':
+          specialObserver.observe(el);
+          break;
+        case 'screen_25_7':
           specialObserver.observe(el);
           break;
         default:
