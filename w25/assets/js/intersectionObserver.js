@@ -39,10 +39,13 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     } else {
       switch(parentId) {
-        case 'screen_25_5':
+        case 'screen_25_2':
           specialObserver.observe(el);
           break;
-        case 'screen_25_3':
+        case'screen_25_4':
+          specialObserver.observe(el);
+          break;
+        case 'screen_25_5':
           specialObserver.observe(el);
           break;
         case 'screen_25_6':
