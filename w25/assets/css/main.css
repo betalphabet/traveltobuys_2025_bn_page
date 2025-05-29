@@ -914,49 +914,49 @@ table thead tr th {
 
 @media (max-width: 1024px) {
     #screen_25_5 {
-        min-height: 1600px !important
+        min-height: 1100px !important
     }
 }
 
 @media (max-width: 920px) {
     #screen_25_5 {
-        min-height: 1600px !important
+        min-height: 1000px !important
     }
 }
 
 @media (max-width: 800px) {
     #screen_25_5 {
-        min-height: 1500px !important
+        min-height: 900px !important
     }
 }
 
 @media (max-width: 768px) {
     #screen_25_5 {
-        min-height: 1400px !important
+        min-height: 800px !important
     }
 }
 
 @media (max-width: 700px) {
     #screen_25_5 {
-        min-height: 1300px !important
+        min-height: 700px !important
     }
 }
 
 @media (max-width: 576px) {
     #screen_25_5 {
-        min-height: 1000px !important
+        min-height: 600px !important
     }
 }
 
 @media (max-width: 430px) {
     #screen_25_5 {
-        min-height: 800px !important
+        min-height: 450px !important
     }
 }
 
 @media (max-width: 390px) {
     #screen_25_5 {
-        min-height: 700px !important
+        min-height: 400px !important
     }
 }
 
