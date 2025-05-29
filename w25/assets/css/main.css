@@ -581,10 +581,10 @@ table thead tr th {
     background-position: top center;
     background-repeat: no-repeat;
     text-align: center;
-    min-height: 700px;
+    min-height: 2030px;
     margin-top: -80px;
     z-index: 9;
-    position: relative
+    position: relative;
 }
 
 @media (max-width: 920px) {
@@ -798,9 +798,11 @@ table thead tr th {
     background-position: top center;
     background-repeat: no-repeat;
     text-align: center;
-    min-height: 1250px;
+    min-height: 2050px;
     z-index: 7;
-    position: relative
+    position: relative;
+    border-bottom: 3px solid #000;
+    margin-top: -10px;
 }
 
 @media (max-width: 920px) {
@@ -905,10 +907,9 @@ table thead tr th {
     background-position: top center;
     background-repeat: no-repeat;
     text-align: center;
-    min-height: 2100px;
+    min-height: 1310px;
     z-index: 6;
     position: relative;
-    border-bottom: 3px solid #000;
 }
 
 @media (max-width: 1024px) {
@@ -1021,7 +1022,8 @@ table thead tr th {
     text-align: center;
     z-index: 5;
     position: relative;
-    min-height: 1314px
+    min-height: 2800px;
+    margin-top: -80px;
 }
 
 @media (max-width: 920px) {
