@@ -118,18 +118,20 @@
 
             .banner-base,
             .radiation-layer,
-            .banner-top
-            {
+            .banner-top {
                 content: url("mobile_banner.webp");
             }
 
-            .banner-container, .banner-layer{
+            .banner-container,
+            .banner-layer {
                 height: 100%;
                 position: relative;
             }
 
 
-            .heartbeat-layer, .radiation-layer, .banner-base{
+            .heartbeat-layer,
+            .radiation-layer,
+            .banner-base {
                 display: none;
             }
 
@@ -148,9 +150,34 @@
             }
         }
     </style>
+
+    <!-- Google Tag Manager -->
+
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+
+        })(window, document, 'script', 'dataLayer', 'GTM-N4DW3Q');</script>
+
+    <!-- End Google Tag Manager -->
+
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4DW3Q" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+
+    <!-- End Google Tag Manager (noscript) -->
+
     <div class="banner-container">
         <img src="banner.webp" alt="Banner Base" class="banner-layer banner-base">
         <img src="radiation.webp" alt="Radiation Effect" class="banner-layer radiation-layer">
