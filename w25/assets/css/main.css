@@ -581,7 +581,7 @@ table thead tr th {
     background-position: top center;
     background-repeat: no-repeat;
     text-align: center;
-    min-height: 2030px;
+    min-height: 2113px;
     margin-top: -80px;
     z-index: 9;
     position: relative;
@@ -690,7 +690,7 @@ table thead tr th {
     background-repeat: no-repeat;
     text-align: center;
     min-height: 1800px;
-    margin-top: -80px;
+    margin-top: 0px;
     z-index: 9;
     position: relative;
 }
