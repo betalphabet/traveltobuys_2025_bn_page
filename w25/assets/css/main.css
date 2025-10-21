@@ -581,101 +581,47 @@ table thead tr th {
     background-position: top center;
     background-repeat: no-repeat;
     text-align: center;
-    min-height: 2113px;
-    margin-top: -80px;
+    min-height: auto;
+    margin-top: -75px;
     z-index: 9;
     position: relative;
 }
 
-@media (max-width: 920px) {
-    #screen_25_2 {
-        min-height: 1550px !important;
-        margin-top: -72px !important
-    }
-}
-
 @media (max-width: 800px) {
     #screen_25_2 {
-        min-height: 1350px !important;
         margin-top: -64px !important
     }
 }
 
 @media (max-width: 768px) {
     #screen_25_2 {
-        min-height: 1300px !important;
         margin-top: -56px !important
     }
 }
 
 @media (max-width: 576px) {
     #screen_25_2 {
-        min-height: 1050px !important;
         margin-top: -40px !important
     }
 }
 
 @media (max-width: 430px) {
     #screen_25_2 {
-        min-height: 750px !important;
         margin-top: -32px !important
     }
 }
 
 @media (max-width: 375px) {
     #screen_25_2 {
-        min-height: 750px !important;
         margin-top: -24px !important
     }
 }
 
 #screen_25_2 .screen_container {
     width: 100%;
-    margin: 0 auto;
-    padding-top: 10vh
+    margin: 40px auto 110px auto;
 }
 
-@media (max-width: 920px) {
-    #screen_25_2 .screen_container {
-        padding-top: 9vh !important
-    }
-}
-
-@media (max-width: 800px) {
-    #screen_25_2 .screen_container {
-        padding-top: 8vh !important
-    }
-}
-
-@media (max-width: 768px) {
-    #screen_25_2 .screen_container {
-        padding-top: 7vh !important
-    }
-}
-
-@media (max-width: 700px) {
-    #screen_25_2 .screen_container {
-        padding-top: 6vh !important
-    }
-}
-
-@media (max-width: 576px) {
-    #screen_25_2 .screen_container {
-        padding-top: 5vh !important
-    }
-}
-
-@media (max-width: 430px) {
-    #screen_25_2 .screen_container {
-        padding-top: 4vh !important
-    }
-}
-
-@media (max-width: 375px) {
-    #screen_25_2 .screen_container {
-        padding-top: 3vh !important
-    }
-}
 
 #screen_25_2 .screen_container .banner {
     width: 100%;
@@ -689,101 +635,17 @@ table thead tr th {
     background-position: top center;
     background-repeat: no-repeat;
     text-align: center;
-    min-height: 1800px;
-    margin-top: 0px;
     z-index: 9;
     position: relative;
 }
 
-@media (max-width: 920px) {
-    #screen_25_2_1 {
-        min-height: 1400px !important;
-        margin-top: -72px !important
-    }
-}
 
-@media (max-width: 800px) {
-    #screen_25_2_1 {
-        min-height: 1200px !important;
-        margin-top: -64px !important
-    }
-}
-
-@media (max-width: 768px) {
-    #screen_25_2_1 {
-        min-height: 1000px !important;
-        margin-top: -56px !important
-    }
-}
-
-@media (max-width: 576px) {
-    #screen_25_2_1 {
-        min-height: 800px !important;
-        margin-top: -40px !important
-    }
-}
-
-@media (max-width: 430px) {
-    #screen_25_2_1 {
-        min-height: 600px !important;
-        margin-top: -32px !important
-    }
-}
-
-@media (max-width: 375px) {
-    #screen_25_2_1 {
-        min-height: 500px !important;
-        margin-top: -24px !important
-    }
-}
 
 #screen_25_2_1 .screen_container {
     width: 100%;
-    margin: 0 auto;
-    padding-top: 10vh
+    margin: 50px auto;
 }
 
-@media (max-width: 920px) {
-    #screen_25_2_1 .screen_container {
-        padding-top: 9vh !important
-    }
-}
-
-@media (max-width: 800px) {
-    #screen_25_2_1 .screen_container {
-        padding-top: 8vh !important
-    }
-}
-
-@media (max-width: 768px) {
-    #screen_25_2_1 .screen_container {
-        padding-top: 7vh !important
-    }
-}
-
-@media (max-width: 700px) {
-    #screen_25_2_1 .screen_container {
-        padding-top: 6vh !important
-    }
-}
-
-@media (max-width: 576px) {
-    #screen_25_2_1 .screen_container {
-        padding-top: 5vh !important
-    }
-}
-
-@media (max-width: 430px) {
-    #screen_25_2_1 .screen_container {
-        padding-top: 4vh !important
-    }
-}
-
-@media (max-width: 375px) {
-    #screen_25_2_1 .screen_container {
-        padding-top: 3vh !important
-    }
-}
 
 #screen_25_2_1 .screen_container .banner {
     width: 100%;
@@ -905,100 +767,16 @@ table thead tr th {
     background-position: top center;
     background-repeat: no-repeat;
     text-align: center;
-    min-height: 1350px;
+    min-height: auto;
     margin-top: 0;
     position: relative;
     z-index: 8
 }
 
-@media (max-width: 920px) {
-    #screen_25_3 {
-        min-height: 1100px !important;
-        margin-top: 0 !important
-    }
-}
-
-@media (max-width: 800px) {
-    #screen_25_3 {
-        min-height: 800px !important;
-        margin-top: 0 !important
-    }
-}
-
-@media (max-width: 700px) {
-    #screen_25_3 {
-        min-height: 700px !important;
-        margin-top: 0 !important
-    }
-}
-
-@media (max-width: 576px) {
-    #screen_25_3 {
-        min-height: 600px !important;
-        margin-top: 0 !important
-    }
-}
-
-@media (max-width: 430px) {
-    #screen_25_3 {
-        min-height: 500px !important;
-        margin-top: 0 !important
-    }
-}
-
-@media (max-width: 390px) {
-    #screen_25_3 {
-        min-height: 450px !important;
-        margin-top: 0 !important
-    }
-}
 
 #screen_25_3 .screen_container {
     width: 100%;
-    margin: 0 auto;
-    padding-top: 10vh
-}
-
-@media (max-width: 920px) {
-    #screen_25_3 .screen_container {
-        padding-top: 9vh !important
-    }
-}
-
-@media (max-width: 800px) {
-    #screen_25_3 .screen_container {
-        padding-top: 8vh !important
-    }
-}
-
-@media (max-width: 768px) {
-    #screen_25_3 .screen_container {
-        padding-top: 7vh !important
-    }
-}
-
-@media (max-width: 700px) {
-    #screen_25_3 .screen_container {
-        padding-top: 6vh !important
-    }
-}
-
-@media (max-width: 576px) {
-    #screen_25_3 .screen_container {
-        padding-top: 5vh !important
-    }
-}
-
-@media (max-width: 430px) {
-    #screen_25_3 .screen_container {
-        padding-top: 4vh !important
-    }
-}
-
-@media (max-width: 375px) {
-    #screen_25_3 .screen_container {
-        padding-top: 3vh !important
-    }
+    margin: 50px auto;
 }
 
 #screen_25_3 .screen_container .banner {
@@ -1014,102 +792,19 @@ table thead tr th {
     background-position: top center;
     background-repeat: no-repeat;
     text-align: center;
-    min-height: 2050px;
+    min-height: auto;
     z-index: 7;
     position: relative;
-    border-bottom: 3px solid #000;
-    margin-top: -10px;
+    border-bottom: 1.5px solid #000;
 }
 
-@media (max-width: 920px) {
-    #screen_25_4 {
-        min-height: 900px !important
-    }
-}
-
-@media (max-width: 800px) {
-    #screen_25_4 {
-        min-height: 800px !important
-    }
-}
-
-@media (max-width: 768px) {
-    #screen_25_4 {
-        min-height: 800px !important
-    }
-}
-
-@media (max-width: 700px) {
-    #screen_25_4 {
-        min-height: 700px !important
-    }
-}
-
-@media (max-width: 576px) {
-    #screen_25_4 {
-        min-height: 600px !important
-    }
-}
-
-@media (max-width: 430px) {
-    #screen_25_4 {
-        min-height: 420px !important
-    }
-}
-
-@media (max-width: 375px) {
-    #screen_25_4 {
-        min-height: 375px !important
-    }
-}
 
 #screen_25_4 .screen_container {
     width: 100%;
-    margin: 0 auto;
-    padding-top: 10vh
+    margin: 50px auto;
 }
 
-@media (max-width: 920px) {
-    #screen_25_4 .screen_container {
-        padding-top: 9vh !important
-    }
-}
 
-@media (max-width: 800px) {
-    #screen_25_4 .screen_container {
-        padding-top: 8vh !important
-    }
-}
-
-@media (max-width: 768px) {
-    #screen_25_4 .screen_container {
-        padding-top: 7vh !important
-    }
-}
-
-@media (max-width: 700px) {
-    #screen_25_4 .screen_container {
-        padding-top: 6vh !important
-    }
-}
-
-@media (max-width: 576px) {
-    #screen_25_4 .screen_container {
-        padding-top: 5vh !important
-    }
-}
-
-@media (max-width: 430px) {
-    #screen_25_4 .screen_container {
-        padding-top: 4vh !important
-    }
-}
-
-@media (max-width: 375px) {
-    #screen_25_4 .screen_container {
-        padding-top: 3vh !important
-    }
-}
 
 #screen_25_4 .screen_container .banner {
     width: 100%;
@@ -1123,105 +818,15 @@ table thead tr th {
     background-position: top center;
     background-repeat: no-repeat;
     text-align: center;
-    min-height: 1310px;
+    min-height: auto;
     z-index: 6;
     position: relative;
 }
 
-@media (max-width: 1024px) {
-    #screen_25_5 {
-        min-height: 1100px !important
-    }
-}
-
-@media (max-width: 920px) {
-    #screen_25_5 {
-        min-height: 1000px !important
-    }
-}
-
-@media (max-width: 800px) {
-    #screen_25_5 {
-        min-height: 900px !important
-    }
-}
-
-@media (max-width: 768px) {
-    #screen_25_5 {
-        min-height: 800px !important
-    }
-}
-
-@media (max-width: 700px) {
-    #screen_25_5 {
-        min-height: 700px !important
-    }
-}
-
-@media (max-width: 576px) {
-    #screen_25_5 {
-        min-height: 600px !important
-    }
-}
-
-@media (max-width: 430px) {
-    #screen_25_5 {
-        min-height: 450px !important
-    }
-}
-
-@media (max-width: 390px) {
-    #screen_25_5 {
-        min-height: 400px !important
-    }
-}
 
 #screen_25_5 .screen_container {
     width: 100%;
-    margin: 0 auto;
-    padding-top: 10vh
-}
-
-@media (max-width: 920px) {
-    #screen_25_5 .screen_container {
-        padding-top: 9vh !important
-    }
-}
-
-@media (max-width: 800px) {
-    #screen_25_5 .screen_container {
-        padding-top: 8vh !important
-    }
-}
-
-@media (max-width: 768px) {
-    #screen_25_5 .screen_container {
-        padding-top: 7vh !important
-    }
-}
-
-@media (max-width: 700px) {
-    #screen_25_5 .screen_container {
-        padding-top: 6vh !important
-    }
-}
-
-@media (max-width: 576px) {
-    #screen_25_5 .screen_container {
-        padding-top: 5vh !important
-    }
-}
-
-@media (max-width: 430px) {
-    #screen_25_5 .screen_container {
-        padding-top: 4vh !important
-    }
-}
-
-@media (max-width: 375px) {
-    #screen_25_5 .screen_container {
-        padding-top: 3vh !important
-    }
+    margin: 50px auto;
 }
 
 #screen_25_5 .screen_container .banner {
@@ -1238,98 +843,12 @@ table thead tr th {
     text-align: center;
     z-index: 5;
     position: relative;
-    min-height: 2800px;
+    min-height: auto;
     margin-top: -80px;
 }
 
-@media (max-width: 920px) {
-    #screen_25_6 {
-        min-height: 1100px !important
-    }
-}
-
-@media (max-width: 800px) {
-    #screen_25_6 {
-        min-height: 1051.2px !important
-    }
-}
-
-@media (max-width: 768px) {
-    #screen_25_6 {
-        min-height: 919.8px !important
-    }
-}
-
-@media (max-width: 700px) {
-    #screen_25_6 {
-        min-height: 788.4px !important
-    }
-}
-
-@media (max-width: 576px) {
-    #screen_25_6 {
-        min-height: 600px !important
-    }
-}
-
-@media (max-width: 430px) {
-    #screen_25_6 {
-        min-height: 590px !important
-    }
-}
-
-@media (max-width: 390px) {
-    #screen_25_6 {
-        min-height: 450px !important
-    }
-}
-
 #screen_25_6 .screen_container {
-    width: 100%;
-    margin: 0 auto;
-    padding-top: 10vh
-}
-
-@media (max-width: 920px) {
-    #screen_25_6 .screen_container {
-        padding-top: 13.5vh !important
-    }
-}
-
-@media (max-width: 800px) {
-    #screen_25_6 .screen_container {
-        padding-top: 12vh !important
-    }
-}
-
-@media (max-width: 768px) {
-    #screen_25_6 .screen_container {
-        padding-top: 10.5vh !important
-    }
-}
-
-@media (max-width: 700px) {
-    #screen_25_6 .screen_container {
-        padding-top: 9vh !important
-    }
-}
-
-@media (max-width: 576px) {
-    #screen_25_6 .screen_container {
-        padding-top: 6.75vh !important
-    }
-}
-
-@media (max-width: 430px) {
-    #screen_25_6 .screen_container {
-        padding-top: 6vh !important
-    }
-}
-
-@media (max-width: 390px) {
-    #screen_25_6 .screen_container {
-        padding-top: 5.25vh !important
-    }
+    margin: 100px auto 50px auto;
 }
 
 #screen_25_6 .screen_container .banner {
@@ -1344,109 +863,15 @@ table thead tr th {
     background-position: top center;
     background-repeat: no-repeat;
     text-align: center;
-    min-height: 2800px;
-    margin-top: -80px;
+    min-height: auto;
     z-index: 4;
     position: relative
 }
 
-@media (max-width: 1024px) {
-    #screen_25_7 {
-        min-height: 2400px !important;
-        margin-top: -118.8px !important
-    }
-}
-
-
-@media (max-width: 920px) {
-    #screen_25_7 {
-        min-height: 2300px !important;
-        margin-top: -118.8px !important
-    }
-}
-
-@media (max-width: 800px) {
-    #screen_25_7 {
-        min-height: 1900px !important;
-        margin-top: -105.6px !important
-    }
-}
-
-@media (max-width: 768px) {
-    #screen_25_7 {
-        min-height: 1800px !important;
-        margin-top: -92.4px !important
-    }
-}
-
-@media (max-width: 700px) {
-    #screen_25_7 {
-        min-height: 1600px !important;
-        margin-top: -79.2px !important
-    }
-}
-
-@media (max-width: 576px) {
-    #screen_25_7 {
-        min-height: 1300px !important;
-        margin-top: -59.4px !important
-    }
-}
-
-@media (max-width: 430px) {
-    #screen_25_7 {
-        min-height: 950px !important;
-        margin-top: -52.8px !important
-    }
-}
-
-@media (max-width: 375px) {
-    #screen_25_7 {
-        min-height: 900px !important;
-        margin-top: -46.2px !important
-    }
-}
 
 #screen_25_7 .screen_container {
     width: 100%;
-    margin: 0 auto;
-    padding-top: 10vh
-}
-
-@media (max-width: 920px) {
-    #screen_25_7 .screen_container {
-        padding-top: 15vh !important
-    }
-}
-
-@media (max-width: 800px) {
-    #screen_25_7 .screen_container {
-        padding-top: 15vh !important
-    }
-}
-
-@media (max-width: 768px) {
-    #screen_25_7 .screen_container {
-        padding-top: 15vh !important
-    }
-}
-
-@media (max-width: 700px) {
-    #screen_25_7 .screen_container {
-        padding-top: 10vh !important
-    }
-}
-
-@media (max-width: 576px) {
-    #screen_25_7 .screen_container {
-        padding-top: 5vh !important
-    }
-}
-
-@media (max-width: 430px) {
-    #screen_25_7 .screen_container {
-        padding-top: 5vh !important
-    }
+    margin: 50px auto;
 }
 
 #screen_25_7 .screen_container .banner {
