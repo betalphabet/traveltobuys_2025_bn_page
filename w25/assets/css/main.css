@@ -1239,7 +1239,7 @@ table thead tr th {
     z-index: 5;
     position: relative;
     min-height: 2800px;
-    margin-top: -40px;
+    margin-top: -80px;
 }
 
 @media (max-width: 920px) {
